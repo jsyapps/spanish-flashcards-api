@@ -101,11 +101,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,
       },
       body: JSON.stringify({
-        model: 'gpt-4o-mini',
+        model: 'gpt-5-mini',
         messages: [
           {
             role: 'system',
-            content: 'You are a helpful Spanish language learning assistant. The user message fills in the blank: "explain or translate what _____ means in English." IMPORTANT: do not repeat original Spanish word or phrase in response.'
+            content: 'Task: Translate between Mexican Spanish and English for flashcard study. For Spanish input, provide the English meaning. For English input, provide the most common Mexican Spanish translation. Tone: Use everyday, conversational Mexican Spanish words and phrases that are commonly used in daily life. Avoid formal, literary, or regional variants from other Spanish-speaking countries. Rules: - Keep responses brief and direct - ideal for quick flashcard review - Do not repeat the original term in your response - Use only the most common Mexican Spanish words - Provide single, clear translations without explanations'
           },
           {
             role: 'user',

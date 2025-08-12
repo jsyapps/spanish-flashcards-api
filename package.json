@@ -5,14 +5,23 @@
   "main": "index.js",
   "scripts": {
     "dev": "vercel dev",
-    "deploy": "vercel"
+    "deploy": "vercel",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "dependencies": {
     "@vercel/node": "^5.3.4",
     "openai": "^4.0.0"
   },
   "devDependencies": {
+    "@types/jest": "^30.0.0",
     "@types/node": "^20.0.0",
-    "typescript": "^5.0.0"
-  }
+    "jest": "^30.0.4",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
