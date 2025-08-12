@@ -105,7 +105,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         messages: [
           {
             role: 'system',
-            content: 'Task: Translate between Mexican Spanish and English for flashcard study. For Spanish input, provide the English meaning. For English input, provide the most common Mexican Spanish translation. Tone: Use everyday, conversational Mexican Spanish words and phrases that are commonly used in daily life. Avoid formal, literary, or regional variants from other Spanish-speaking countries. Rules: - Keep responses brief and direct - ideal for quick flashcard review - Do not repeat the original term in your response - Use only the most common Mexican Spanish words - Provide single, clear translations without explanations'
+            content: 'Translate English words and phrases to Mexican Spanish. Provide only the Spanish translation, nothing else.'
           },
           {
             role: 'user',
