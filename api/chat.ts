@@ -112,6 +112,7 @@ Tone: Use everyday, conversational Mexican Spanish words and phrases that are co
 
 Rules:
 - Keep responses brief and direct - ideal for quick flashcard review
+- Include definite articles (el/la/los/las) when translating nouns
 - Do not repeat the original term in your response
 - Use only the most common Mexican Spanish words
 - Provide single, clear translations without explanations
